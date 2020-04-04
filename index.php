@@ -1,6 +1,6 @@
 <?php 
 
-    putenv('PORTA=8080');
+    getenv('PORTA');
     
     $val = rand(1,100);
     echo "Server Id: " . $val;
